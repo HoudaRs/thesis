@@ -135,9 +135,9 @@ class sideMenu extends Component {
 		</nav>
 		],
 		'section': [
-		<section class="jumbotron text-center" onClick= {(e) => this.createElement(e, 'section')}>
+		<section class="" onClick= {(e) => this.createElement(e, 'section')}>
 			<div class="container">
-			<h1 class="jumbotron-heading">Album example</h1>
+			<h1>Album example</h1>
 			<p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
 			<p>
 				<a href="" class="btn btn-primary my-2">Main call to action</a>
@@ -155,7 +155,8 @@ class sideMenu extends Component {
 		</section>,
 		<section onClick= {(e) => this.createElement(e, 'section')}>
 			<div class="card-body">
-				<h5 class="card-title">Special title treatment</h5>
+				<h5 class="card-tit
+				le">Special title treatment</h5>
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 				<a href="#" class="btn btn-primary">Go somewhere</a>
 			</div>
@@ -224,11 +225,11 @@ class sideMenu extends Component {
 
 	render() {
 		return (	               
-			<div className="left-bar menu-collapsed-wrapper">
-				<ul className="left-bar-items menu-collapsed">
-          <ul className="left-bar-item bg-panel" 
-          onClick= {(e) => this.openSideMenu('navbar')}>
-						<svg width="23" height="26" viewBox="0 0 22 26" className="symbol symbol-leftBarPagesPanelManager icon">
+		<div className="left-bar menu-collapsed-wrapper">
+		<ul className="left-bar-items menu-collapsed">
+			<ul className="left-bar-item bg-panel" 
+			onClick= {(e) => this.openSideMenu('navbar')}>
+			<svg width="23" height="26" viewBox="0 0 22 26" className="symbol symbol-leftBarPagesPanelManager icon">
             <path fillRule="evenodd" d="M17 0a5 5 0 0 1 5 5v16a5 5 0 0 1-5 5H5a5 5 0 0 1-5-5V5a5 5 0 0 1 5-5h12zm0 20V6a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1zM8 10V8h6v2H8zm0 4v-2h6v2H8zm0 4v-2h6v2H8z"></path></svg>
             <span className="mask"></span>
           <span className="text">Navbar</span>

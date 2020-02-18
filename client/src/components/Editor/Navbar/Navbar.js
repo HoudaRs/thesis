@@ -100,7 +100,7 @@ class FixedNavbar extends Component {
       72
     ];
     return (
-      <nav className="editor-navbar navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="editor-navbar navbar navbar-expand-md navbar-light bg-light fixed">
         <button
           className="navbar-toggler"
           type="button"
